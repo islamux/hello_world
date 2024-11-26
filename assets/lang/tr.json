@@ -1,9 +1,11 @@
 {
-    "greetingMorning": "Günaydın",
-    "greetingEvening": "İyi Akşamlar",
-    "english": "İngilizce",
-    "french": "Fransızca",
-    "turkish": "Türkçe",
-    "german": "Almanca"
-  }
-  
+  "greetingMorning": "Günaydın",
+  "greetingEvening": "İyi Akşamlar",
+  "myName": "Benim adım Fathi",
+  "english": "İngilizce",
+  "french": "Fransızca",
+  "turkish": "Türkçe",
+  "german": "Almanca",
+  "spanish": "İspanyolca"
+}
+ 

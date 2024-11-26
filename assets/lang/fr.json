@@ -1,9 +1,10 @@
 {
-    "greetingMorning": "Bonjour",
-    "greetingEvening": "Bonsoir",
-    "english": "Anglais",
-    "french": "Français",
-    "turkish": "Turc",
-    "german": "Allemand"
-  }
-  
+  "greetingMorning": "Bonjour",
+  "greetingEvening": "Bonsoir",
+  "myName": "Je m'appelle Fathi",
+  "english": "Anglais",
+  "french": "Français",
+  "turkish": "Turc",
+  "german": "Allemand",
+  "spanish": "Espagnol"
+}

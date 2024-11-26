@@ -25,17 +25,20 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             title: 'Localized App',
             localizationsDelegates: const [
+              // todo : seperated file
               LocalizationDelegate(),
               GlobalMaterialLocalizations.delegate,
               GlobalWidgetsLocalizations.delegate,
               GlobalCupertinoLocalizations.delegate,
             ],
             supportedLocales: const [
+              // todo: seperated file
               Locale('en'),
               Locale('ar'),
               Locale('fr'),
               Locale('tr'),
               Locale('de'),
+              Locale('es'),
             ],
             locale: locale,
             theme: ThemeData(primarySwatch: Colors.blue),

@@ -1,9 +1,11 @@
 {
-    "greetingMorning": "Good Morning",
-    "greetingEvening": "Good Evening",
-    "english": "English",
-    "french": "French",
-    "turkish": "Turkish",
-    "german": "German"
-  }
-  
+  "greetingMorning": "Good Morning",
+  "greetingEvening": "Good Evening",
+  "myName": "My name is Fathi",
+  "english": "English",
+  "french": "French",
+  "turkish": "Turkish",
+  "german": "German",
+  "spanish": "Spanish"
+}
+ 

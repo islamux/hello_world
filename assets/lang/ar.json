@@ -1,9 +1,10 @@
 {
-    "greetingMorning": "صباح الخير",
-    "greetingEvening": "مساء الخير",
-    "english": "إنجليزي",
-    "french": "فرنسي",
-    "turkish": "تركي",
-    "german": "ألماني"
-  }
-  
+  "greetingMorning": "صباح الخير",
+  "greetingEvening": "مساء الخير",
+  "myName": "اسمي فتحي",
+  "english": "إنجليزي",
+  "french": "فرنسي",
+  "turkish": "تركي",
+  "german": "ألماني",
+  "spanish": "إسباني"
+}
