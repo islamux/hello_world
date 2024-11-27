@@ -11,7 +11,7 @@ class LocalizationManager {
     return Localizations.of<LocalizationManager>(context, LocalizationManager);
   }
 
-  static const LocalizationsDelegate<LocalizationManager> delegate =
+  static LocalizationsDelegate<LocalizationManager> delegate =
       LocalizationDelegate();
 
   Map<String, String> _localizedStrings = {};
@@ -32,11 +32,12 @@ class LocalizationManager {
 }
 
 class LocalizationDelegate extends LocalizationsDelegate<LocalizationManager> {
-  const LocalizationDelegate();
+  LocalizationDelegate();
 
   @override
   bool isSupported(Locale locale) {
-    return ['en', 'ar', 'fr', 'tr', 'de', 'es'].contains(locale.languageCode);
+    return ['en', 'ar', 'fr', 'tr', 'de', 'es', 'zh']
+        .contains(locale.languageCode);
   }
 
   @override
