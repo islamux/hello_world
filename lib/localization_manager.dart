@@ -1,6 +1,5 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:hello_world/data/translation.dart';
 
 class LocalizationManager {
   final Locale locale;
@@ -14,20 +13,8 @@ class LocalizationManager {
   static LocalizationsDelegate<LocalizationManager> delegate =
       LocalizationDelegate();
 
-  Map<String, String> _localizedStrings = {};
-
-  Future<void> load() async {
-    final jsonString =
-        await rootBundle.loadString('assets/lang/${locale.languageCode}.json');
-    final Map<String, dynamic> jsonMap = json.decode(jsonString);
-
-    _localizedStrings = jsonMap.map((key, value) {
-      return MapEntry(key, value.toString());
-    });
-  }
-
   String translate(String key) {
-    return _localizedStrings[key] ?? key;
+    return translations[key]?[locale.languageCode] ?? key;
   }
 }
 
@@ -36,15 +23,13 @@ class LocalizationDelegate extends LocalizationsDelegate<LocalizationManager> {
 
   @override
   bool isSupported(Locale locale) {
-    return ['en', 'ar', 'fr', 'tr', 'de', 'es', 'zh']
+    return ['en', 'ar', 'tr', 'de', 'zh', 'fr', 'es']
         .contains(locale.languageCode);
   }
 
   @override
   Future<LocalizationManager> load(Locale locale) async {
-    final localizationManager = LocalizationManager(locale);
-    await localizationManager.load();
-    return localizationManager;
+    return LocalizationManager(locale);
   }
 
   @override

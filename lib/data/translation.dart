@@ -1,0 +1,48 @@
+const Map<String, Map<String, String>> translations = {
+  "phrases": {
+    "en": "Phrases",
+    "ar": "العبارات",
+    "tr": "İfadeler",
+    "de": "Sätze",
+    "zh": "短语 (duǎnyǔ)",
+    "fr": "Phrases",
+    "es": "Frases",
+  },
+  "greetingMorning": {
+    "en": "Good Morning",
+    "ar": "صباح الخير",
+    "tr": "Günaydın",
+    "de": "Guten Morgen",
+    "zh": "早上好 (zǎoshang hǎo)",
+    "fr": "Bonjour",
+    "es": "Buenos días",
+  },
+  "greetingEvening": {
+    "en": "Good Evening",
+    "ar": "مساء الخير",
+    "tr": "İyi akşamlar",
+    "de": "Guten Abend",
+    "zh": "晚上好 (wǎnshang hǎo)",
+    "fr": "Bonsoir",
+    "es": "Buenas tardes",
+  },
+  "hello": {
+    "en": "Hello",
+    "ar": "مرحباً",
+    "tr": "Merhaba",
+    "de": "Hallo",
+    "zh": "你好 (nǐ hǎo)",
+    "fr": "Bonjour",
+    "es": "Hola",
+  },
+  "thankYou": {
+    "en": "Thank you",
+    "ar": "شكراً",
+    "tr": "Teşekkür ederim",
+    "de": "Danke",
+    "zh": "谢谢 (xièxie)",
+    "fr": "Merci",
+    "es": "Gracias",
+  },
+  // Add more phrases here...
+};
