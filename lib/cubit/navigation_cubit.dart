@@ -6,5 +6,4 @@ class NavigationCubit extends Cubit<NavigationState> {
   NavigationCubit() : super(NavigationState.home);
 
   void goToPhrases() => emit(NavigationState.phrases);
-//  void goToHome() => emit(NavigationState.home);
 }

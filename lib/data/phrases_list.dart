@@ -23,6 +23,81 @@ class PhrasesList {
       category: "Politeness",
       translations: translations["thankYou"]!,
     ),
+    PhraseModel(
+      key: "goodbyeMyFriend",
+      category: "Greetings",
+      translations: translations["goodbyeMyFriend"]!,
+    ),
+    PhraseModel(
+      key: "veryGood",
+      category: "Opinion",
+      translations: translations["veryGood"]!,
+    ),
+    PhraseModel(
+      key: "wowYouSpeakChineseWell",
+      category: "Compliment",
+      translations: translations["wowYouSpeakChineseWell"]!,
+    ),
+    PhraseModel(
+      key: "noProblem",
+      category: "Politeness",
+      translations: translations["noProblem"]!,
+    ),
+    PhraseModel(
+      key: "helloEveryone",
+      category: "Greetings",
+      translations: translations["helloEveryone"]!,
+    ),
+    PhraseModel(
+      key: "youAreWelcome",
+      category: "Politeness",
+      translations: translations["youAreWelcome"]!,
+    ),
+    PhraseModel(
+      key: "whatDayIsToday",
+      category: "Question",
+      translations: translations["whatDayIsToday"]!,
+    ),
+    PhraseModel(
+      key: "excellent",
+      category: "Opinion",
+      translations: translations["excellent"]!,
+    ),
+    PhraseModel(
+      key: "notSoGood",
+      category: "Opinion",
+      translations: translations["notSoGood"]!,
+    ),
+    PhraseModel(
+      key: "sorry",
+      category: "Politeness",
+      translations: translations["sorry"]!,
+    ),
+    PhraseModel(
+      key: "youAreAmazing",
+      category: "Compliment",
+      translations: translations["youAreAmazing"]!,
+    ),
+    PhraseModel(
+      key: "youAreFunny",
+      category: "Compliment",
+      translations: translations["youAreFunny"]!,
+    ),
+    PhraseModel(
+      key: "iDontThinkSo",
+      category: "Opinion",
+      translations: translations["iDontThinkSo"]!,
+    ),
+    PhraseModel(
+      key: "letsStart",
+      category: "Action",
+      translations: translations["letsStart"]!,
+    ),
+    PhraseModel(
+      key: "thankYouContinue",
+      category: "Politeness",
+      translations: translations["thankYouContinue"]!,
+    ),
     // Add more phrases here...
   ];
 }

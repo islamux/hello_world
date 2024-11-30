@@ -25,7 +25,34 @@
 //             localizationsDelegates: localizationDelegates,
 //             supportedLocales: supportedLocales,
 //             locale: locale,
-//             theme: ThemeData(primarySwatch: Colors.blue),
+//             theme: ThemeData(
+//               useMaterial3: true,
+//               colorScheme: ColorScheme.fromSeed(
+//                 seedColor: const Color(0xFF6750A4),
+//                 brightness: Brightness.light,
+//               ),
+//               cardTheme: CardTheme(
+//                 elevation: 0,
+//                 shape: RoundedRectangleBorder(
+//                   borderRadius: BorderRadius.circular(16),
+//                   side: BorderSide(color: Colors.grey.shade200),
+//                 ),
+//               ),
+//               appBarTheme: const AppBarTheme(
+//                 centerTitle: true,
+//                 elevation: 0,
+//                 backgroundColor: Colors.transparent,
+//                 foregroundColor: Color(0xFF6750A4),
+//               ),
+//               textTheme: TextTheme(
+//                 headlineMedium: TextStyle(
+//                   color: Colors.grey.shade800,
+//                   fontWeight: FontWeight.bold,
+//                 ),
+//                 bodyLarge: TextStyle(color: Colors.grey.shade700),
+//                 bodyMedium: TextStyle(color: Colors.grey.shade600),
+//               ),
+//             ),
 //             initialRoute: RouteConstants.phrases, // Define initial route
 //             routes: {
 //               RouteConstants.phrases: (context) => PhrasesPage(),
@@ -64,8 +91,35 @@ class AppRoot extends StatelessWidget {
             localizationsDelegates: localizationDelegates,
             supportedLocales: supportedLocales,
             locale: locale,
-            theme: ThemeData(primarySwatch: Colors.blue),
-            initialRoute: RouteConstants.phrases, // Define initial route
+            theme: ThemeData(
+              useMaterial3: true,
+              colorScheme: ColorScheme.fromSeed(
+                seedColor: const Color(0xFF6750A4),
+                brightness: Brightness.light,
+              ),
+              cardTheme: CardTheme(
+                elevation: 0,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                  side: BorderSide(color: Colors.grey.shade200),
+                ),
+              ),
+              appBarTheme: const AppBarTheme(
+                centerTitle: true,
+                elevation: 0,
+                backgroundColor: Colors.transparent,
+                foregroundColor: Color(0xFF6750A4),
+              ),
+              textTheme: TextTheme(
+                headlineMedium: TextStyle(
+                  color: Colors.grey.shade800,
+                  fontWeight: FontWeight.bold,
+                ),
+                bodyLarge: TextStyle(color: Colors.grey.shade700),
+                bodyMedium: TextStyle(color: Colors.grey.shade600),
+              ),
+            ),
+            initialRoute: RouteConstants.phrases,
             routes: {
               RouteConstants.phrases: (context) => PhrasesPage(),
             },
