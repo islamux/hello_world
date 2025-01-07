@@ -35,7 +35,7 @@ class PhrasesList {
     ),
     PhraseModel(
       key: "wowYouSpeakChineseWell",
-      category: "Compliment",
+      category: "Compliments",
       translations: translations["wowYouSpeakChineseWell"]!,
     ),
     PhraseModel(
@@ -75,12 +75,12 @@ class PhrasesList {
     ),
     PhraseModel(
       key: "youAreAmazing",
-      category: "Compliment",
+      category: "Compliments",
       translations: translations["youAreAmazing"]!,
     ),
     PhraseModel(
       key: "youAreFunny",
-      category: "Compliment",
+      category: "Compliments",
       translations: translations["youAreFunny"]!,
     ),
     PhraseModel(
